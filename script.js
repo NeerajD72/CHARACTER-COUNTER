@@ -10,7 +10,7 @@ btn.addEventListener('click',()=>{
   const cha_count = text_field.length
   character.textContent = cha_count
 
-  //trim function use for remove the space from the start and end
+  //trim use for remove the space from the start and end
   const word_count = text_field.trim().split(' ')
   words.textContent = word_count.length
 })
